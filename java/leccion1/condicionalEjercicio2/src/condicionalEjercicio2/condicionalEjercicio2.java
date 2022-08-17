@@ -24,6 +24,6 @@ public class condicionalEjercicio2 {
                 break;
         }
         System.out.println("estacion = " + estacion);
-                
+ 
     }
 }
