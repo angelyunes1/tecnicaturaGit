@@ -16,8 +16,8 @@ public class Ciclos05 {
         int numero, aleatorio, conteo = 0;
         aleatorio = (int)(Math.random()*100); // Esto genera un numero aleatorio 
         do{
-            System.out.println("Digite un numero: ");
-            numero = Integer.parseInt(entrada.nextLine());
+                System.out.println("Digite un numero: ");
+                numero = Integer.parseInt(entrada.nextLine());
             if (numero < aleatorio){
                 System.out.println("Digite un numero MAYOR ");
                 
