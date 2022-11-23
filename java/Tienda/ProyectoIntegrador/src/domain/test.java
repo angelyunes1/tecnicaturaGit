@@ -52,7 +52,10 @@ public class test {
                     break;
                 }
                 else{
-                    System.out.println("\nOpcion incorrecta, por favor revise las opciones del menu");
+                    if(subMenu !=4){
+                       System.out.println("\nOpcion incorrecta, por favor revise las opciones del menu"); 
+                    }
+                    
                 }
             }while(!(subMenu==4));
                     if(subMenu==99){
